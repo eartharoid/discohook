@@ -12,7 +12,7 @@ service.post('/', async (c) => {
 		}, 500);
 	}
 	const message = {
-		content: `New [form](https://tally.so/forms/${body.data.formId}/submissions) submission`,
+		content: `New [form](https://tally.so/forms/${body.data.formId}) submission`,
 		embeds: [
 			{
 				color: 0x5865f2,
