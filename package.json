@@ -1,0 +1,6 @@
+{
+	"name": "discohook",
+	"dependencies": {
+		"hono": "^4.5.8"
+	}
+}
